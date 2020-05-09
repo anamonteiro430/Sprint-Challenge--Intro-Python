@@ -5,8 +5,8 @@ import unittest
 # object is constructed.
 
 class GroundVehicle():
-    def __init__(self, num_wheels = 4):
-        self.num_wheels = num_wheels #default
+    def __init__(self, num_wheels = 4): #default
+        self.num_wheels = num_wheels 
 
     def __str__(self):
         return f"{self.num_wheels} wheels."
